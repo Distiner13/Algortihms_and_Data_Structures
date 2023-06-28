@@ -1,0 +1,34 @@
+<config>
+	<test driver="ca.concordia.algorithms.huffman.HuffCode" method="main" label="Check Student Example 1 Encoding">
+		<args>haiku1.txt encode</args>
+		<input>sneaking</input>
+		<mark grade="10">
+			<check label="Check encoded version"><regex>00111100110010011111101000111000010</regex></check>
+		</mark>
+	</test>
+
+	<test driver="ca.concordia.algorithms.huffman.HuffCode" method="main" label="Check Student Example 1 Decoding">
+		<args>haiku1.txt decode</args>
+		<input>00111100110010011111101000111000010</input>
+		<mark grade="10">
+			<check label="Check decoded version"><regex>sneaking</regex></check>
+		</mark>
+	</test>
+
+	<test driver="ca.concordia.algorithms.huffman.HuffCode" method="main" label="Check Student Example 2 Encoding">
+		<args>haiku2.txt encode</args>
+		<input>divide a</input>
+		<mark grade="10">
+			<check label="Check encoded version"><regex>00011000001101000000011010110110011</regex></check>
+		</mark>
+	</test>
+
+	<test driver="ca.concordia.algorithms.huffman.HuffCode" method="main" label="Check Student Example 2 Decoding">
+		<args>haiku2.txt decode</args>
+		<input>00011000001101000000011010110110011</input>
+		<mark grade="10">
+			<check label="Check decoded version"><regex>divide a</regex></check>
+		</mark>
+	</test>
+
+</config>

@@ -1,0 +1,12 @@
+<config>
+	<test driver="comp352.dsandalgos.RecursiveFibonacciCounter" method="main" label="Check Fib Sequence">
+		<args>10</args>
+
+		<mark grade="10">
+			<check label="sequence"><regex>1 1 1 1 3 3 3 5 9 9</regex></check>
+		</mark>
+		<mark grade="10">
+			<check label="metadata"><regex>Calls: 32</regex></check>
+		</mark>
+	</test>
+</config>

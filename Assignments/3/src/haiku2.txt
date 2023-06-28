@@ -1,0 +1,3 @@
+divide and conquer
+splitting lists into two halves
+conquer the sorting
